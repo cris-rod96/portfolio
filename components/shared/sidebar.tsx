@@ -1,19 +1,20 @@
 import { information } from "@/assets/data";
 import Link from "next/link";
+import { GoDotFill } from "react-icons/go";
 
 const Sidebar = () => {
   return (
-    <aside className="fixed w-full lg:w-[13vw] lg:h-full flex flex-col justify-between lg:border-r lg:border-gray-500/20 lg:justify-start">
+    <aside className="fixed w-full lg:w-[13vw] lg:h-full flex flex-col justify-between lg:border-r lg:border-gray-500/20 lg:justify-start z-10">
       {/* Header */}
       <section
-        className="fixed lg:static w-full top-0 left-0 flex justify-center lg:justify-start lg:items-start flex-col items-center p-4 lg:p-8 bg-dark border-b border-gray-500/30 group
+        className="fixed lg:static w-full top-0 left-0 flex flex-col justify-center lg:justify-start lg:items-start p-8 lg:p-8 bg-dark border-b border-gray-500/30 group
       h-[12vh]
       "
       >
-        <h1 className="text-2xl lg:text-xl text-gray-300 group-hover:text-primary transition-colors duration-300">
+        <h1 className="text-xl lg:text-xl text-gray-300 group-hover:text-primary transition-colors duration-300">
           Cristhian Rodríguez
         </h1>
-        <h3 className="text-md lg:text-sm text-gray-500 tracking-widest">
+        <h3 className="text-sm lg:text-sm text-gray-500 tracking-widest">
           FullStack Developer
         </h3>
       </section>

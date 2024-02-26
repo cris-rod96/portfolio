@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`bg-dark text-gray-300 ${font.className}`}>
         <Sidebar />
-        <main className="lg:pl-[13vw] pt-[13vh] lg:pt-0 px-8">{children}</main>
+        <main className="lg:pl-[13vw] pt-[13vh] lg:pt-0 pb-20">{children}</main>
       </body>
     </html>
   );

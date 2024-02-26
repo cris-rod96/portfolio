@@ -7,3 +7,16 @@ body,
 :root {
   height: 100%;
 }
+
+.slider {
+  animation: slide 30s infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
